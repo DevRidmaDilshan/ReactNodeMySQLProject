@@ -1,0 +1,11 @@
+@media print {
+    /* Override any styles that hide elements */
+    h4 {
+      display: block !important; /* Ensure h4 elements are displayed when printing */
+    }
+    input[type="text"] {
+      display: block !important; /* Ensure input elements are displayed when printing */
+    }
+    /* Add any additional styles as needed */
+  }
+  
